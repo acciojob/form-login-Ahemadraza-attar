@@ -1,7 +1,5 @@
 function getFormvalue() {
-    const input=document.getElementsByTagName("input");
-	const firstName=input[0].target.value;
-	const lastName=input[1];
+    const firstName=document.getElementsByTagName("input")[0];
 	
 	alert(firstName);
 
