@@ -1,4 +1,7 @@
 function getFormvalue() {
-    //Write your code here
+    const input=document.getElementsByTagName("input");
+	const firstName=input[0];
+	const lastName=input[1];
+	alert(firstName);
 
 }
